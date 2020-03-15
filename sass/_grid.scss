@@ -6,12 +6,12 @@
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
 
-    @include respond(tab_port) {
+    @include respond(phone) {
       margin-bottom: $gutter-vertical-tab_port;
     }
   }
 
-  @include respond(tab_port) {
+  @include respond(phone) {
     max-width: 50rem;
     padding: 0 3rem;
   }
@@ -20,10 +20,11 @@
 
   [class^="col-"] {
     float: left;
-    height: 6rem;
     font-size: 2rem;
     border-radius: 3px;
     color: white;
+    // For visualisations only
+    height: 6rem;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -31,13 +32,13 @@
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
 
-      @include respond(tab_port) {
+      @include respond(phone) {
         margin-right: 0;
         margin-bottom: $gutter-vertical-tab_port;
       }
     }
 
-    @include respond(tab_port) {
+    @include respond(phone) {
       width: 100% !important;
     }
   }
