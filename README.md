@@ -9,7 +9,7 @@
 
 ### To keep playing
 ```bash
-$ git clone https://github.com/rom-30/custom_grid
+$ git clone git@github.com:rom-30/custom_grid.git
 $ yarn install
 $ yarn start
 ```
