@@ -13,4 +13,10 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
+  background-color: #222;
+}
+
+::selection {
+  background-color: #f4f4f4;
+  color: #222;
 }
